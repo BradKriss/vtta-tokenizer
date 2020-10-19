@@ -23,5 +23,5 @@
   "packs": [],
   "url": "https://www.vttassets.com/asset/vtta-tokenizer",
   "manifest": "https://raw.githubusercontent.com/BradKriss/vtta-tokenizer/master/module.json",
-  "download": ""
+  "download": "https://github.com/BradKriss/vtta-tokenizer/archive/2.2.2.zip"
 }
