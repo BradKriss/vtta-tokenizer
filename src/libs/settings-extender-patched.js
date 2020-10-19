@@ -247,7 +247,7 @@ let SettingsExtender = () => {
         const $formGroup = $input.parent();
         $formGroup.find(".hint").css("order", "100");
         const target = $input.attr("name");
-        const type = $input.data("dtype").substring(base.length).toLowerCase();
+        const type = "Img";
         const $filePickerButton = $(
           `<button type=button class=file-picker title="Browse Files" tabindex=-1>` +
             `<i class="fas fa-file-import fa-fw"></i></button>`

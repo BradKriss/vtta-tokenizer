@@ -69,7 +69,7 @@ class ImagePicker extends FilePicker {
   // Adds a FilePicker-Simulator-Button next to the input fields
   static processHtml(html) {
     $(html)
-      .find(`input[data-dtype="Image"]`)
+      .find(`input[data-dtype="Img"]`)
       .each(function () {
         if (!$(this).next().length) {
           let picker = new ImagePicker({
